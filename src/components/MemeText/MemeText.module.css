@@ -1,0 +1,54 @@
+.MemeTextLeft {
+  float: left;
+}
+
+.MemeTextRight {
+  float: left;
+}
+
+.ColorPicker {
+  margin-left: 0px;
+}
+
+.ColorPickerBox {
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #111f28;
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+}
+
+.MemeText {
+  width: 460px;
+  float: right;
+  height: 100px;
+}
+
+.MemeText input {
+  width: 255px;
+  height: 23px;
+  font-size: 18px;
+  border: 1px solid #111f28;
+  border-right: none;
+}
+
+.BiggerBtn {
+  height: 27px;
+  width: 52px;
+  display: block;
+  font-size: 18px;
+  background-color: white;
+  border: 1px solid #111f28;
+}
+.SmallerBtn {
+  height: 26px;
+  width: 52px;
+  display: block;
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid #111f28;
+  border-top: none;
+}

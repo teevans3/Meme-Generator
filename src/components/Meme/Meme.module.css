@@ -1,0 +1,21 @@
+.Meme {
+  height: 500px;
+  width: 500px;
+  box-sizing: border-box;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 500px 500px;
+  padding: 12px;
+}
+
+.MemeTopText {
+  word-wrap: break-word;
+}
+
+.MemeBottomText {
+  position: absolute;
+  bottom: 0;
+  word-wrap: break-word;
+  width: 100%;
+  margin-bottom: 12px;
+}

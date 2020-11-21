@@ -1,0 +1,63 @@
+.MemeContainer {
+  background-color: #76879c;
+  border: 1px solid #111f28;
+  height: 600px;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.MemeInfoFull {
+  height: 500px;
+  width: 1000px;
+}
+
+.MemeImage {
+  float: left;
+}
+
+.MemeMaker {
+  float: right;
+  height: 500px;
+  width: 500px;
+}
+
+.MemeUpload {
+  height: 84px;
+  width: 100%;
+  width: 460px;
+  float: right;
+  text-align: left;
+}
+
+.Upload {
+  box-sizing: border-box;
+  height: 36px;
+  padding-top: 12px;
+}
+
+.Upload label {
+  height: 36px;
+  width: 60px;
+  background-color: white;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #111f28;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.Download {
+  width: 460px;
+  float: right;
+  height: 36px;
+  margin-top: 180px;
+}
+
+.DownloadBtn {
+  height: 36px;
+  display: block;
+  background-color: white;
+  border: 1px solid #111f28;
+  box-shadow: 2px 2px #525e6c;
+}
