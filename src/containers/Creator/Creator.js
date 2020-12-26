@@ -5,10 +5,6 @@ import axios from "axios";
 import html2canvas from "html2canvas";
 import classes from "./Creator.module.css";
 
-// NEXT:
-// 1) allow access to saved memes (link to new "page"?)
-// 2) be able to share on facebook, twitter, etc.?
-// 3) style
 
 class Creator extends Component {
   state = {
@@ -21,9 +17,6 @@ class Creator extends Component {
     textColorBottom: "white",
     textFont: ""
   };
-
-  // SET MAX AND MIN FOR TEXT SIZES
-  // SET MAX FOR TEXT TOP AND TEXT BOTTOM???
 
   onTextChangeTop = (event) => {
     this.setState({ textTop: event.target.value });
