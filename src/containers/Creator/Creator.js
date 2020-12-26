@@ -132,7 +132,7 @@ class Creator extends Component {
                   name="uploadedImg"
                   id="uploadedImg"
                   accept="image/x-png,image/gif,image/jpeg"
-                  onChange={() => this.onImageUpload(event)}
+                  onChange={(event) => this.onImageUpload(event)}
                 />
               </div>
             </div>
